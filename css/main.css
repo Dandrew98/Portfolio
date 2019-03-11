@@ -1,9 +1,7 @@
 html
 {
     background-image: url("bg/skull_kid.jpg");
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-image: url("css/bg/skull_kid.jpg");
 }
 
 body
