@@ -1,0 +1,13 @@
+html
+{
+    background-image: url("bg/skull_kid.jpg");
+}
+
+body
+{
+    width: 960px;
+    height: 1024px;
+    background-color: rgba(0,0,0,0.40);
+    color: white;
+    margin: 5px auto;
+}
