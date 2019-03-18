@@ -14,3 +14,27 @@ body
     color: white;
     margin: 5px auto;
 }
+
+header nav
+{
+  text-align: center;
+}
+header nav ul li
+{
+  display: inline-block;
+}
+
+a
+{
+  text-decoration: none;
+  padding: 2px 20px;
+  margin: 2px auto;
+  color: red;
+}
+a:hover
+{
+  text-decoration: none;
+  padding: 2px 20px;
+  margin: 2px auto;
+  color: green;
+}
