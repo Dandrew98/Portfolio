@@ -2,19 +2,50 @@
 /*new font*/
 @font-face
 {
-    font-family: 'hylian';
-    src: url('tphylian-gcnregular-webfont.woff2') format('woff2'),
-         url('tphylian-gcnregular-webfont.woff') format('woff'),
-		url('TPHylian-GCNRegular.otf') format("opentype"),
-		url('TPHylian-GCNRegular.eot') format("embedded-opentype"),
-		url('TPHylian-GCNRegular.ttf') format("truetype"),
-		url('TPHylian-GCNRegular.svg') format("svg");
+    font-family: 'hylian_tp';
+    src: url('tp_hylian/tphylian-gcnregular-webfont.woff2') format('woff2'),
+         url('tp_hylian/tphylian-gcnregular-webfont.woff') format('woff'),
+		url('tp_hylian/TPHylian-GCNRegular.otf') format("opentype"),
+		url('tp_hylian/TPHylian-GCNRegular.eot') format("embedded-opentype"),
+		url('tp_hylian/TPHylian-GCNRegular.ttf') format("truetype"),
+		url('tp_hylian/TPHylian-GCNRegular.svg') format("svg");
     font-weight: normal;
     font-style: normal;
 
 }
 
+@font-face
+{
+  font-family: 'hylian_style';
+  src: url('Hylian_Style/HyliaSerifBeta-Regular.eot') format("embedded-opentype"),
+  url('Hylian_Style/HyliaSerifBeta-Regular.otf') format("opentype"),
+  url('Hylian_Style/HyliaSerifBeta-Regular.svg') format("svg"),
+  url('Hylian_Style/HyliaSerifBeta-Regular.ttf') format("truetype"),
+  url('Hylian_Style/HyliaSerifBeta-Regular.woff') format("woff"),
+  url('Hylian_Style/HyliaSerifBeta-Regular.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'TP_style';
+  src: url('Revanna/Ravenna.eot') format("embedded-opentype"),
+  url('Revanna/Ravenna.otf') format("opentype"),
+  url('Revanna/Ravenna.svg') format("svg"),
+  url('Revanna/Ravenna.ttf') format("truetype"),
+  url('Revanna/Ravenna.woff') format("woff"),
+  url('Revanna/Ravenna.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html, body
 {
-	font-family: 'hylian';
+	font-family: 'TP_style';
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'hylian_style';
 }
